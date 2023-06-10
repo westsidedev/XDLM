@@ -2,6 +2,13 @@ public class anim {
 	public static void clear(){
 	    System.out.print("\033[H\033[2J");
 	}
+	public static String clear2(String cle){
+	    String clear = "\033["+cle+"H\033[K";
+	    return clear;
+	}
+	public static void opc(String c,String c2,String c3) throws InterruptedException{
+        System.out.printf("\n%s[%s1%s]%sSIMPLE_DOWNLOAD     %s[%s2%s]%sTORRENTS     %s[%s3%s]%sGDRIVE%s\n[%s4%s]%sFACEBOOK            %s[%s5%s]%sINSTAGRAM    %s[%s6%s]%sTWITTER\n%s[%s•%s]>",c,c2,c,c3,c,c2,c,c3,c,c2,c,c3,c,c2,c,c3,c,c2,c,c3,c,c2,c,c3,c,c2,c);
+	}
     public static void xdl(String c,int t) throws InterruptedException{
         int i = 0;
         String[] xdl = {"\n","_","_","  ","_","_","_","_","_","_","  ","_","     ","_","_","  ","_","_","\n",
