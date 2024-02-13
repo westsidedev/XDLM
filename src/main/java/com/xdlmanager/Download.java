@@ -1,3 +1,4 @@
+package com.xdlmanager;
 import java.util.Scanner;
 import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLContext;
@@ -162,7 +163,7 @@ public class Download {
 				main(null);
 			}
 		} catch (Exception e) {
-			new Menu().main(null);
+			new Main().main(null);
 		}
 	}
 }

@@ -1,3 +1,4 @@
+package com.xdlmanager;
 public class anim {
 	public static void clear(){
 	    System.out.print("\033[H\033[2J");

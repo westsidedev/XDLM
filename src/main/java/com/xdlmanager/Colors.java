@@ -1,3 +1,4 @@
+package com.xdlmanager;
 public class Colors {
 	public String blue = "\033[01;34m";
 	public String red = "\033[01;31m";

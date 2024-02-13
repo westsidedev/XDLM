@@ -1,8 +1,9 @@
+package com.xdlmanager;
 import java.util.InputMismatchException;
 import java.util.MissingFormatArgumentException;
 import java.util.Scanner;
 
-public class Menu {
+public class Main {
 	public static void main(String[] args) {
 		String red = new Colors().red, yell = new Colors().yell, cian = new Colors().Cian, vd = new Colors().vd, close = new Colors().Close, blue = new Colors().blue;
 		try {
@@ -25,23 +26,23 @@ public class Menu {
 					break;
 				case 2:
 					System.out.printf("%s%s%s", anim.clear2("13"), anim.clear2("12"), anim.clear2("11"));
-					new Torrents().main(null);
+					//new Torrents().main(null);
 					break;
 				case 3:
 					System.out.printf("%s%s%s", anim.clear2("13"), anim.clear2("12"), anim.clear2("11"));
-					new Gdrive().main(null);
+					//new Gdrive().main(null);
 					break;
 				case 4:
 					System.out.printf("%s%s%s", anim.clear2("13"), anim.clear2("12"), anim.clear2("11"));
-					new Facebook().main(null);
+					//new Facebook().main(null);
 					break;
 				case 5:
 					System.out.printf("%s%s%s", anim.clear2("13"), anim.clear2("12"), anim.clear2("11"));
-					new Instagram().main(null);
+					//new Instagram().main(null);
 					break;
 				case 6:
 					System.out.printf("%s%s%s", anim.clear2("13"), anim.clear2("12"), anim.clear2("11"));
-					new Twitter().main(null);
+					//new Twitter().main(null);
 					break;
 				default :
 					main(null);
